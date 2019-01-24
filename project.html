@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to my HomePage</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/mystyle.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/project.css">
+</head>
+<body style="height: 900px;">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Tho Trieu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/homepage.html">Home</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/about.html">About</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/skill.html">Skill</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/education.html">Education</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/project.html">Poject</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/gallery.html">Gallery</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/reference.html">Reference</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/resume.html">Resume</a></li>
+        <li><a href="file:///C:/Users/Zaluk/Desktop/ThoTrieuBS/contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+         <form action="" class="search-form">
+                <div class="form-group has-feedback">
+                    <label for="search" class="sr-only">Search</label>
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Find Something">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+            </form>        
+      </ul>
+    </div>
+  </div>
+</nav>
+ <ul class="breadcrumb">
+  <li><a href="file:///D:/BootstrapProject/homepage.html">Home</a></li>
+  <li><a href="file:///D:/BootstrapProject/about.html">About</a></li>
+  <li><a href="file:///D:/BootstrapProject/skill.html">Skill</a></li>
+  <li><a href="file:///D:/BootstrapProject/skill.html">Education</a></li>
+  <li>Projects</li>
+  </ul>
+<div class="container">
+    <div class="page-header">
+        <h1>Panels with nav tabs</h1>
+    </div>
+ <div class="panel with-nav-tabs panel-primary">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1primary" data-toggle="tab">Project 1</a></li>
+                            <li><a href="#tab2primary" data-toggle="tab">Project 2</a></li>
+                            <li><a href="#tab3primary" data-toggle="tab">Project 3</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1primary">
+                        <p> Project 1</p>
+                        <img src="img/project1.png" style="width: 150px; height: 150px;">
+                        <hr>
+                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Web Form</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a basic web form which uses for user makes contact.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+      <div class="tab-pane fade" id="tab2primary">
+            <p> Project 2</p>
+            <img src="img/project2.png" style="width: 150px; height: 150px;">
+            <hr>
+           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Open Modal</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Food Website</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a basic website which contains tranditional Vietnamese cuisines.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>     
+    </div>
+  </div>
+  </div>
+      <div class="tab-pane fade" id="tab3primary">
+          <p> Project 3</p>
+          <img src="img/project3.png" style="width: 150px; height: 150px;">
+          <hr>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Open Modal</button>
+ <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+         <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Checking Input</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a basic movie website which is applied basic javascript. When users enter to the website, he/she will be asked for confirm his/her age before entering the website.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>      
+    </div>
+  </div>
+   </div>
+      </div>
+      </div>
+      </div>
+      </div>
+  </div>
+  </div>                     
+<footer>
+    <div class="footerHeader"></div>
+    <div class="container">
+    <div class="col-md-4" >
+        <h3>About me</h3>
+        <p>
+        I am an IT student of Metropolia UAS. I love coding. I want to work as a software engineering after I graduate. 
+        </p>
+        <p>I have knowledge in database and programming languages.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>My Location </h3>
+        <iframe src="https://maps.google.com/maps?q=klaneettitie 00420 helsinki&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-4" >
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Phone : 0465670323</li>
+            <li>E-mail : trieuvytho@gmail.com</li>        
+        </ul>
+        <p>
+            You can contact me via email or telephone.
+        </p>
+        <ul class="sm">
+            <li><a href="#" ><img src="https://www.facebook.com/images/fb_icon_325x325.png" class="img-responsive"></a></li>
+            <li><a href="#" ><img src="https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300" class="img-responsive" ></a></li>
+            <li><a href="#" ><img src="http://playbookathlete.com/wp-content/uploads/2016/10/twitter-logo-4.png" class="img-responsive"  ></a></li>
+        </ul>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
