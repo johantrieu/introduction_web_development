@@ -1,2 +1,2 @@
-# localPersonalWeb for Introduction Web Development Course (Metropolia UAS)
-(HTML / CSS / JavaScript / Bootstrap)
+### Introduction Web Development Course (Metropolia UAS)
+- The course introduce the basic of web development by using HTML / CSS / JavaScript / Bootstrap
